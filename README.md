@@ -24,7 +24,7 @@ This project scraps all the user comments from a reddit post and stores in it a 
    ```
 3. The requirement.yaml file has all the necessary packages for this code to work
 4. To create a new environment, run the following code in your terminal
-   ```conda create --name my_yam_env --file requirement.yaml```
+   ```conda create --name my_yaml_env --file requirement.yaml```
 5. This will take few minutes. After succesful activation, run the following code in your terminal
    ```activate my_yaml_env```
 #### Running the program
