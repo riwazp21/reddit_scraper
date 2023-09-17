@@ -16,24 +16,25 @@ This project scraps all the user comments from a reddit post and stores in it a 
 5. After this command, a local file in your device exists
 #### Setting up the conda environment
 1. In your terminal change your directory to go inside the reddit_scraper project file
-2. The project file has three files
+2. The project file(reddit_scrapper) has three files
    ```
    README.md
    requirement.yaml
-   scrapper.py
+   scrappy.py
    ```
 3. The requirement.yaml file has all the necessary packages for this code to work
 4. To create a new environment, run the following code in your terminal
-   ```conda create --name my_yaml_env --file requirement.yaml```
-5. This will take few minutes. After succesful activation, run the following code in your terminal
-   ```activate my_yaml_env```
+   ```conda env create --name reddit_scrapper --file=requirement.yml```
+5. This will take few minutes. After succesful activation, run the following code in your terminal.
+   ```conda activate reddit_scrapper```
 #### Running the program
-   1. To run the python program, run the following command
+   1. To run the python program, run the following command in your terminal
       ```python scrappy.py URL```
-   2. For example,
+   2. Always make sure you have your environment working before you run your python script.
+   3. For example,
       ```python scrappy.py https://www.reddit.com/r/funny/comments/16brnzb/self_aware/```
-   3. This will take few minutes, depending on how big the reddit post is.
-   4. All the comments are stored in the comment.txt file in the same directory as your project
-   5. To see all the comments, run the following code in your teminal
+   4. This will take few minutes, depending on how big the reddit post is.
+   5. All the comments are stored in the comment.txt file in the same directory as your project
+   6. To see all the comments and replies, run the following code in your teminal
       ```cat comment.txt```
    
