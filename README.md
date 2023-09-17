@@ -2,7 +2,7 @@
 ## Python Program to scrape comments from a reddit post
 ### Description
 This project scraps all the user comments from a reddit post and stores in it a file.
-###How to make this program run in your device?
+### How to make this program run in your device?
 #### Installing Anaconda in your device
 1. You would need to install Anaconda into your device. Head to anaconda.com and install the latest version of Anaconda to your device.
 2. After you have installed the Anaconda, you can check if it was succesfully installed or not by running the following command in your terminal.
